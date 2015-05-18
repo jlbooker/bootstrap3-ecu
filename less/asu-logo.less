@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'OpenBaskerville';
+    src: url('../fonts/OpenBaskerville/openbaskerville-0.0.53.eot');
+    src: url('../fonts/OpenBaskerville/openbaskerville-0.0.53.eot?#iefix') format('embedded-opentype'),
+         /*url('../fonts/OpenBaskerville/openbaskerville-0.0.53.woff') format('woff'),*/
+         url('../fonts/OpenBaskerville/OpenBaskerville.otf') format('opentype'),
+         url('../fonts/OpenBaskerville/openbaskerville-0.0.53.ttf') format('truetype'),
+         url('../fonts/OpenBaskerville/openbaskerville-0.0.53.svg#') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Baskervald Bold';
+    src: url('../fonts/Baskervald/baskervald-bold-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Baskervald';
+    src: url('../fonts/Baskervald/baskervald-std-webfont.woff') format('woff');
+}
+
+.app-songbird-logo {
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.app-songbird-logo h1 {
+    font-family: 'Baskervald';
+    font-weight: normal;
+    letter-spacing: -2.0pt;
+    margin: 0;
+    padding: 0;
+}
+
+.app-songbird-logo h2 {
+    font-family: 'Baskervald Bold';
+    font-weight: normal;
+    letter-spacing: 1.75pt;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+@media(min-width: @screen-xs) {
+    .app-songbird-logo {
+        background-image: url("../img/swooshy-bird.png");
+        background-position: 50% 15px;
+        background-repeat: no-repeat;
+        background-size: auto 92px;
+        margin-bottom: 1em;
+    }
+
+    .app-songbird-logo h1 {
+        padding-top: 28px;
+        font-size: 34pt;
+        line-height: 34pt;
+    }
+
+    .app-songbird-logo h2 {
+        padding-top: 18px;
+        font-size: 8pt;
+        line-height: 8pt;
+    }
+}
+
+@media(max-width: @screen-xs) {
+    .app-songbird-logo {
+        padding: 15px 0;
+        background: #ffe67a; /* Old browsers */
+        background: -moz-linear-gradient(top,  #ffe67a 0%, #ffd200 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffe67a), color-stop(100%,#ffd200)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #ffe67a 0%,#ffd200 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #ffe67a 0%,#ffd200 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #ffe67a 0%,#ffd200 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  #ffe67a 0%,#ffd200 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe67a', endColorstr='#ffd200',GradientType=0 ); /* IE6-9 */
+    }
+    .app-songbird-logo h1 {
+        font-size: 34pt;
+        line-height: 34pt;
+    }
+
+    .app-songbird-logo h2 {
+        padding-top: 10px;
+        font-size: 8pt;
+        line-height: 8pt;
+    }
+}

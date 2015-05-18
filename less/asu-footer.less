@@ -1,0 +1,74 @@
+.asu-footer {
+    background: @asuFooterDark;
+    #gradient > .vertical(@asuFooterDark, @asuFooterDarkHighlight);
+    color: @asuFooterLight;
+    text-shadow: 0 -1px 0 @asuFooterDark;
+    border-top: solid 2px @asuGold;
+    margin-top: 4em;
+}
+
+.asu-footer li {
+    list-style: none;
+}
+
+.asu-footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+.asu-footer a {
+    color: @asuFooterLight;
+    text-shadow: 0 -1px 0 @asuFooterDark;
+    text-decoration: none;
+}
+
+.asu-footer a:hover {
+    color: @asuFooterLightHighlight;
+    text-shadow: 0 -1px 0 @asuFooterDark;
+}
+
+.asu-footer-left, .asu-footer-right {
+    text-align: center;
+    border-bottom: solid 1px @asuFooterLight;
+}
+
+@media (min-width: @screen-sm) {
+    .asu-footer-left {
+        text-align: right;
+        border-right: solid 1px @asuFooterLight;
+    }
+
+    .asu-footer-right {
+        text-align: left;
+        border-left: solid 1px @asuFooterLight;
+    }
+
+    .asu-footer {
+        height: 100px;
+        padding: 10px 0;
+    }
+
+    .asu-footer-left, .asu-footer-right, .asu-footer-logo {
+        border-bottom: 0;
+    }
+
+    /* Sticky Footer based on Ryan Fait's work http://ryanfait.com */
+    * {
+        margin: 0;
+    }
+    html, body {
+        height: 100%;
+    }
+    .sticky-wrapper {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        margin: 0 auto -100px;
+    }
+    .sticky-footer, .sticky-push {
+        clear: both;
+        padding: 0;
+        margin: 0;
+        height: 100px;
+    }
+}
