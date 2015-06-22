@@ -11,7 +11,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{THEME_HTTP}dist/img/apple-touch-icon-57x57-precomposed.png">
     <link rel="shortcut icon" type="image/x-icon" href="{THEME_HTTP}dist/img/favicon.ico">
 
-    <link rel="stylesheet" href="{THEME_HTTP}dist/css/bootstrap.css">
+    <link rel="stylesheet" href="{THEME_HTTP}dist/css/bootstrap.min.css">
 
     {METATAGS}
     {JAVASCRIPT}
@@ -66,6 +66,6 @@
     </div>
     <div id="app-about-box"></div>
     <script>window.jQuery || document.write('<script src="{THEME_HTTP}../../javascript/jquery/jquery.js">\x3C/script>')</script>
-    <script src="{THEME_HTTP}dist/js/bootstrap.js"></script>
+    <script src="{THEME_HTTP}dist/js/bootstrap.min.js"></script>
   </body>
 </html>

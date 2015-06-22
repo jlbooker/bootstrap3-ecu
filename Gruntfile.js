@@ -235,7 +235,7 @@ module.exports = function (grunt) {
         dest: 'dist/',
       },
       fontAwesome: {
-        src: 'Font-Awesome/fonts/*',
+        src: 'font-awesome/fonts/*',
         dest: 'dist/fonts/',
         expand: true,
         flatten: true
