@@ -29,7 +29,7 @@
         {NAV_LINKS}
       </nav>
       <!-- END navbar -->
-
+      {DEFAULT}
       {BODY}
       </div>
       <div class="sticky-push"></div>
@@ -67,5 +67,6 @@
     <div id="app-about-box"></div>
     <script>window.jQuery || document.write('<script src="{THEME_HTTP}../../javascript/jquery/jquery.js">\x3C/script>')</script>
     <script src="{THEME_HTTP}dist/js/bootstrap.min.js"></script>
+    {ANALYTICS_END_BODY}
   </body>
 </html>
