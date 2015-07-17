@@ -9484,4 +9484,14 @@ fieldset[disabled] .btn-warning-hover:hover.active {
   color: #f0ad4e;
   background-color: #fff;
 }
+.admin-icons .fa {
+  margin-right: 2px;
+  font-size: 18px;
+  color: #6b6b6b;
+}
+.admin-icons .fa:hover,
+.admin-icons .glyphicon:hover {
+  color: black;
+  text-decoration: none;
+}
 /*# sourceMappingURL=bootstrap.css.map */
