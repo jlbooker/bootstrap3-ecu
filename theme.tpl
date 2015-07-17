@@ -12,7 +12,6 @@
     <link rel="shortcut icon" type="image/x-icon" href="{THEME_HTTP}dist/img/favicon.ico">
 
     <link rel="stylesheet" href="{THEME_HTTP}dist/css/bootstrap.min.css">
-
     {METATAGS}
     {JAVASCRIPT}
     {STYLE}
@@ -29,7 +28,7 @@
         {NAV_LINKS}
       </nav>
       <!-- END navbar -->
-      {DEFAULT}
+      <!-- {DEFAULT} -->
       {BODY}
       </div>
       <div class="sticky-push"></div>
