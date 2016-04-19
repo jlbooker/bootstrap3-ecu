@@ -1,6 +1,6 @@
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
+ * Copyright 2011-2016 Twitter, Inc.
  * Licensed under  ()
  */
 
@@ -244,6 +244,11 @@ th {
   h3 {
     page-break-after: avoid;
   }
+  @page {
+    margin: 25mm 25mm 25mm 25mm;
+
+    size: 300mm 375mm;
+  }
   .navbar {
     display: none;
   }
@@ -264,6 +269,9 @@ th {
   .table-bordered th,
   .table-bordered td {
     border: 1px solid #ddd !important;
+  }
+  .print-hide {
+    display: none;
   }
 }
 @font-face {
@@ -2097,7 +2105,7 @@ pre code {
     margin-left: 0;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px), print {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
   }
