@@ -19,8 +19,8 @@
     <body>
         <div class="sticky-wrapper">
             <div class="app-songbird-logo">
-                <h1>{SITE_NAME}</h1>
-                <h2>Appalachian State University</h2>
+                <a href="./"><h1>{SITE_NAME}</h1></a>
+                <a href="http://appstate.edu"><h2>Appalachian State University</h2></a>
             </div>
             <div class="container">
                 <!-- BEGIN navbar -->
