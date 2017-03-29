@@ -10,7 +10,7 @@
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{THEME_HTTP}dist/img/apple-touch-icon-72x72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{THEME_HTTP}dist/img/apple-touch-icon-57x57-precomposed.png">
         <link rel="shortcut icon" type="image/x-icon" href="{THEME_HTTP}dist/img/favicon.ico">
-
+        
         <link rel="stylesheet" href="{THEME_HTTP}dist/css/bootstrap.min.css">
         {METATAGS}
         {JAVASCRIPT}
@@ -48,7 +48,7 @@
                         </div>
                         <div class="col-lg-5 col-lg-push-2 col-sm-4 col-sm-push-4 asu-footer-right">
                             <ul>
-                                <li>&copy; 2016</li>
+                                <li>&copy; 2017</li>
                                 <li><a href="http://appstate.edu">Appalachian State University</a></li>
                                 <li><a href="http://www.gnu.org/licenses/gpl.html" class="app-about-box-activate">Licensing</a></li>
                                 <li><a href="http://github.com/AppStateESS/">Clone on Github</a></li>
