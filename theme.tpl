@@ -38,11 +38,11 @@
             <div class="ecu-footer">
                 <div class="container">
                     <div class="row" style="margin-top:1em;">
-                        <div class="col-md-1">
+                        <div class="hidden-xs col-sm-2 col-md-1">
                             <img class="img-responsive" src="{THEME_HTTP}dist/img/ECU-arches-logo.svg">
                         </div>
 
-                        <div class="col-md-4">
+                        <div class="col-xs-12 col-sm-6 col-md-4">
                             <h2>East Carolina University</h2>
                             Office of State Authorization Compliance<br />
                             Ragsdale Hall 218C<br />
