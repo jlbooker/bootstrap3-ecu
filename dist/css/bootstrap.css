@@ -9212,16 +9212,28 @@ button.close {
   padding: 0;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
   font-weight: normal;
   color: #000;
+}
+@media (min-width: 768px) {
+  .ecu-arches-logo h1 {
+    font-size: 36px;
+  }
 }
 .ecu-arches-logo h2 {
   padding: 0;
   margin: 0;
   margin-bottom: .5em;
   font-family: 'Coelacanth';
+  font-size: 1.8em;
   font-weight: normal;
   color: #592a8a;
+}
+@media (min-width: 768px) {
+  .ecu-arches-logo h2 {
+    font-size: 30px;
+  }
 }
 .ecu-arches-logo img {
   height: 1em;
