@@ -19,8 +19,7 @@
     <body>
         <div class="sticky-wrapper">
             <div class="ecu-arches-logo">
-                <a href="./"><h1>{SITE_NAME}</h1></a>
-                <a href="http://www.ecu.edu"><h2><img src="{THEME_HTTP}dist/img/ECU-arches-logo.svg">East Carolina University</h2></a>
+                <a href="./"><img src="{THEME_HTTP}dist/img/ECU_lockup_primary_Purple.svg"><h1>{SITE_NAME}</h1></a>
             </div>
             <div class="container">
                 <!-- BEGIN navbar -->
@@ -38,8 +37,8 @@
             <div class="ecu-footer">
                 <div class="container">
                     <div class="row" style="margin-top:1em;">
-                        <div class="hidden-xs col-sm-2 col-md-1">
-                            <img class="img-responsive" src="{THEME_HTTP}dist/img/ECU-arches-logo.svg">
+                        <div class="hidden-xs col-sm-2 col-md-2">
+                            <img class="img-responsive" src="{THEME_HTTP}dist/img/ECU_lockup_primary_Purple.svg">
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4">

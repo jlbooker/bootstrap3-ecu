@@ -9200,6 +9200,7 @@ button.close {
 .ecu-arches-logo {
   padding: 0;
   margin: 0;
+  margin-bottom: .5em;
   color: #000;
   text-align: center;
 
@@ -9209,9 +9210,10 @@ button.close {
   text-decoration: none;
 }
 .ecu-arches-logo h1 {
+  display: inline-block;
   padding: 0;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Coelacanth';
   font-size: 2em;
   font-weight: normal;
   color: #000;
@@ -9236,7 +9238,9 @@ button.close {
   }
 }
 .ecu-arches-logo img {
-  height: 1em;
+  height: 3.1em;
+  margin-right: 1em;
+  vertical-align: bottom;
 }
 .ecu-footer {
   padding-top: 1em;
