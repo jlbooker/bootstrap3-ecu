@@ -9287,6 +9287,7 @@ button.close {
     height: 174px;
     padding: 0;
     margin: 0;
+    margin-top: 2em;
     clear: both;
   }
 }
