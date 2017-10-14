@@ -10,7 +10,7 @@
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{THEME_HTTP}dist/img/apple-touch-icon-72x72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{THEME_HTTP}dist/img/apple-touch-icon-57x57-precomposed.png">
         <link rel="shortcut icon" type="image/x-icon" href="{THEME_HTTP}dist/img/favicon.ico">
-        
+
         <link rel="stylesheet" href="{THEME_HTTP}dist/css/bootstrap.min.css">
         {METATAGS}
         {JAVASCRIPT}
@@ -18,9 +18,8 @@
     </head>
     <body>
         <div class="sticky-wrapper">
-            <div class="app-songbird-logo">
-                <a href="./"><h1>{SITE_NAME}</h1></a>
-                <a href="http://appstate.edu"><h2>Appalachian State University</h2></a>
+            <div class="ecu-arches-logo">
+                <a href="./"><img src="{THEME_HTTP}dist/img/ECU_lockup_primary_Purple.svg"><h1>{SITE_NAME}</h1></a>
             </div>
             <div class="container">
                 <!-- BEGIN navbar -->
@@ -35,29 +34,20 @@
         </div>
 
         <div class="sticky-footer">
-            <div class="asu-footer"> 
+            <div class="ecu-footer">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-lg-5 col-sm-4 asu-footer-left">
-                            <ul>
-                                <li class="bold"><a href="http://ess.appstate.edu/webmaster">Support</a></li>
-                                <li><a href="http://appstate.edu/disclaimer">Disclaimer</a></li>
-                                <li><a href="http://policy.appstate.edu/Equal_Opportunity">Equal Opportunity Policy</a></li>
-                                <li><a href="http://ess.appstate.edu/">Electronic Student Services</a></li>
-                            </ul>
+                    <div class="row" style="margin-top:1em;">
+                        <div class="hidden-xs col-sm-2 col-md-2">
+                            <img class="img-responsive" src="{THEME_HTTP}dist/img/ECU_lockup_primary_Purple.svg">
                         </div>
-                        <div class="col-lg-5 col-lg-push-2 col-sm-4 col-sm-push-4 asu-footer-right">
-                            <ul>
-                                <li>&copy; 2017</li>
-                                <li><a href="http://appstate.edu">Appalachian State University</a></li>
-                                <li><a href="http://www.gnu.org/licenses/gpl.html" class="app-about-box-activate">Licensing</a></li>
-                                <li><a href="http://github.com/AppStateESS/">Clone on Github</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-2 col-lg-pull-5 col-sm-4 col-sm-pull-4 asu-footer-logo">
-                            <div class="">
-                                <img class="img-responsive" src="{THEME_HTTP}dist/img/appstate-logo-white.png">
-                            </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <h2>East Carolina University</h2>
+                            Office of State Authorization Compliance<br />
+                            Ragsdale Hall 218C<br />
+                            Greenville, NC 27858-4353 USA<br />
+                            252.737.1268<br />
+                            <a href="mailto:leech@ecu.edu">leech@ecu.edu</a>
                         </div>
                     </div>
                 </div>
