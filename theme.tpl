@@ -47,7 +47,7 @@
                             Ragsdale Hall 218C<br />
                             Greenville, NC 27858-4353 USA<br />
                             252.737.1268<br />
-                            <a href="mailto:leech@ecu.edu">leech@ecu.edu</a>
+                            <a href="mailto:eli@ecu.edu">eli@ecu.edu</a>
                         </div>
                     </div>
                 </div>
