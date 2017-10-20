@@ -9,7 +9,7 @@
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{THEME_HTTP}dist/img/apple-touch-icon-114x114-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{THEME_HTTP}dist/img/apple-touch-icon-72x72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{THEME_HTTP}dist/img/apple-touch-icon-57x57-precomposed.png">
-        <link rel="shortcut icon" type="image/x-icon" href="{THEME_HTTP}dist/img/favicon.ico">
+        <link rel="shortcut icon" type="image/x-icon" href="{THEME_HTTP}dist/img/favicon.png">
 
         <link rel="stylesheet" href="{THEME_HTTP}dist/css/bootstrap.min.css">
         {METATAGS}
